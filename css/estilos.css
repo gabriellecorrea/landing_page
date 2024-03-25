@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #304152;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 1em;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo img {
+    width: 30%;
+    min-width: 150px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.5em;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.upper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: #c8d7e4;
+    padding: 20px;
+}
+
+
+
+h1 {
+    padding-bottom: 10px;
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight:600;
+    padding-bottom: 10px;
+    width: 60%;
+}
+
+.imagem_garrafa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 100%;
+    padding: 2em;
+}
+
+.garrafa_img {
+    width: 100%;
+}
+
+.descricao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1em;
+    gap: 1em;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+p {
+    font-size: 1em;
+    color: black;
+}
+
+.paragrafo {
+    display: flex;
+    justify-content: center;
+    background-color: #c8d7e4;
+    border-radius: 10px;
+    padding: 1em;
+    width: 20em;
+}
+
+.paragrafo p {
+    display: flex;
+    align-items: center;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2em;
+    float: right;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    float: right;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    font-weight: 200;
+    font-size: 0.8em;
+    padding-bottom: 20px;
+}
+
+
+input {
+    background-color: #304152;
+    border: none;
+    width: 100%;
+    height: 2.5em;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.enviar {
+    width: 100%;
+    min-width: 80px;
+    height: 2.5em;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.direitos {
+    color: white;
+}
+
+@media screen and (max-width: 750px){
+    .upper {
+        flex-wrap: wrap;
+    }
+    .imagem_garrafa {
+        width: 100%;
+    }
+}
+
+.enviar:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
